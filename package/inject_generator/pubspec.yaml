@@ -4,6 +4,7 @@ description: Dev-time dependency for package:inject.
 authors:
   - Matan Lurey <matanl@google.com>
   - Yegor Jbanov <yjbanov@google.com>
+
 homepage: https://pub.dartlang.org/packages/inject
 
 environment:
@@ -21,13 +22,8 @@ dependencies:
   quiver:
   stack_trace:
 
-#  flutter:
-#    sdk: flutter
-
 dev_dependencies:
   build_runner:
   build_test:
   inject:
     path: ../inject
-#  flutter_test:
-#    sdk: flutter
